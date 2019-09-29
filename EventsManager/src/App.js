@@ -10,12 +10,12 @@ class App extends Component {
   //change with your own firebase config
   componentWillMount() {
     var config = {
-      apiKey: 'AIzaSyAypxSlpFRydAaCv6Dvq-GWKrpwjfFWD9A',
-      authDomain: 'reactnativedatabase-e638a.firebaseapp.com',
-      databaseURL: 'https://reactnativedatabase-e638a.firebaseio.com',
-      projectId: 'reactnativedatabase-e638a',
-      storageBucket: 'reactnativedatabase-e638a.appspot.com',
-      messagingSenderId: '623100458820',
+      apiKey: 'INSERT_HERE',
+      authDomain: 'INSERT_HERE',
+      databaseURL: 'INSERT_HERE',
+      projectId: 'INSERT_HERE',
+      storageBucket: 'INSERT_HERE',
+      messagingSenderId: 'INSERT_HERE',
     };
     firebase.initializeApp(config);
   }
